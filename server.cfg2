@@ -5,7 +5,7 @@ endpoint_add_udp "0.0.0.0:30120"
 
 # Steam Web API key, if you want to use Steam authentication (https://steamcommunity.com/dev/apikey)
 # -> replace "" with the key
-set steam_webApiKey "945B34774F6BC62C63B95A74367B845A"
+set steam_webApiKey ""
 
 
 start mapmanager
@@ -409,7 +409,7 @@ start cityhills_03_metadata
 sv_scriptHookAllowed 0
 
 
-sv_hostname "^0 ^6Black ^0Rose ^6Roleplay Server ^0| 🤔  ^1Serious ^1RP 🤔 ^0| 🏠 ^2House ^0+ ^2NPC ^1Roberries ✋ ^0| 👮 ^4Hiring ^4Police ^0/ ^1EMS ^0/ ^2Gangs ^0/ ^3Mechanics 👩‍⚕️ ^0|🏡 ^4Multiple ^4Housing 🏘️ ^0| 💉 ^6Drugs 💊 ^0|^0| 👊 ^3Custom ^3Scripts 👌 ^0| 🏎️ ^4Custom ^4Cars 🚔 ^0| ^1Active ^1Dev ^0/ ^1Admin ^1Team ^0| ^4Discord ^4https://discord.gg/VJgp79"
+sv_hostname ""
 
 sets tags "roleplay, rp, police, cars, ems, drugs, English, gang, jobs"
 
@@ -443,4 +443,4 @@ sv_endpointprivacy true
 
 # change this
 rcon_password ""
-set sv_licenseKey "t60wqld58xrxlqikckvuhzvl5ji3pru3"
+set sv_licenseKey ""
